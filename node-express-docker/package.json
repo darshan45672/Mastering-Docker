@@ -1,0 +1,25 @@
+{
+  "name": "node-express-app",
+  "version": "1.0.0",
+  "description": "this is to demonstrate containerise node and express app",
+  "keywords": [
+    "node"
+  ],
+  "license": "MIT",
+  "author": "darshan dinesh bhandary",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
